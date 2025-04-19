@@ -1,0 +1,11 @@
+Run Backend:
+  node server.js
+
+Run Frontend:
+  npm start
+
+
+Username: jack@mail.com
+Password: jack12
+
+podman run --name mongodb-ex -d -p 27017:27017 -v mongodb_data:/home/gabbar/.local/podman/mongodb docker.io/library/mongo:latest
